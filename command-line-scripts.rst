@@ -5,7 +5,7 @@ Many Python packages include command line tools. This is useful for distributing
 
 For **funniest**, we'll add a ``funniest-joke`` command line tool.
 
-There are two mechanisms that ``setuptools.setup()`` provides to do this: the ``scripts`` keyword argument, and the ``console_scripts`` entry point.
+There are two mechanisms that ``setuptools.setup()`` provides to do this: the ``scripts`` keyword argument, and the ``console_scripts`` entry point. Note that the 'scripts' keyword approach will not work on Windows.
 
 The ``scripts`` Keyword Argument
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
